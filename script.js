@@ -7,7 +7,7 @@ const copyBtn = document.querySelector('.copy')
 const answer = document.querySelector('.answer')
 mainBtn = document.querySelector('.main-btn')
 
-
+console.log(answer.innerHTML.length)
 
 // add event listener to hamburger
 hamburger.addEventListener('click', openHidden)
@@ -16,7 +16,13 @@ function openHidden(){
     hidden.classList.toggle("hidden")
     hidden.classList.toggle("animate__fadeIn")
 }
+window.addEventListener('load', e => {
+    var originListHtml = localStorage.getItem('shortenedLink')
+if (!answer.innerHTML){
+    answer.innerHTML= originListHtml
+}
 
+})
 // Validate URl
 function ValidateUrl(link) 
 {
@@ -44,8 +50,8 @@ function result(url){
         // create div 
         
         answer.appendChild(results)
-        
-        console.log(results.innerHTML.length)
+       localStorage.setItem('shortenedLink',results.innerHTML )
+        console.log(localStorage.getItem('shortenedLink'))
         
     }else {
         alert('incorrect url')
