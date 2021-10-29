@@ -71,7 +71,8 @@ body{
     color: white;
     padding:10px 15px;
     margin-top: -10px;
-    border-radius:15px ;
+    border-radius:50px ;
+    transition: background-color 0.3s;
     
 }
 .header-right .btn-1:hover{
@@ -102,8 +103,8 @@ h1,h2,h3{
 }
 
 .illustration{
-    max-width: 400px;
-   margin-left: 20px;
+    max-width: 100%;
+   
 }
 .btn-2{
     text-decoration: none;
@@ -113,6 +114,7 @@ h1,h2,h3{
     margin-top: 10px;
     display: inline-block;
     border-radius:15px ;
+    transition: background-color 0.3s;
 }
 .btn-2:hover{
     background-color: hsl(180, 66%, 70%);
@@ -127,6 +129,8 @@ h1,h2,h3{
     padding-top: 20px;
     padding-bottom: 20px;
     display: grid;
+    column-gap: 30px;
+    row-gap: 10px;
     grid-template-columns: 4fr 0.8fr;
     border-radius: 5px;
     
@@ -146,11 +150,12 @@ h1,h2,h3{
     background-color: hsl(180, 66%, 49%);
     color: white;
     padding:10px 15px;
-    margin-top: 5px;
-    margin-left: 30px;
+    /* margin-top: 5px; */
+    /* margin-left: 30px; */
     display: inline-block;
     border-radius:10px ;
     border: none;
+    transition: background-color 0.3s;
 }
 .main-btn:hover{
     background-color: hsl(180, 66%, 70%);
@@ -299,7 +304,7 @@ h1{
     display: block;
     text-align: center;
     margin: 15px 90px;
-    
+    transition: background-color 0.3s;
 }
 .wrapper{
     padding: 10px 5vw;
@@ -315,13 +320,13 @@ h1{
     margin-left: 0;
     margin-right: 0;
     max-width: 400px;
-    min-width: 200px;
-    width: 250px;
+    /* min-width: 250px; */
+    width: 100%;
     
 }
 .main-btn{
-    margin-left: 0;
-    width: 250px;
+    
+    width: 100%;
 }
 .result{
     flex-direction: column;
@@ -392,4 +397,11 @@ h1{
     margin-bottom: 10px;
     
 }
+}
+@media screen and (max-width:310px) {
+    .btn-2{
+        width: 100%;
+        margin: 0;
+    }
+    
 }
