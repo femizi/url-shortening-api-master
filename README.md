@@ -15,7 +15,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 - [Author](#femi Efejuku)
 - [Acknowledgments](#stackoverflow and the junior dev whatsapp group who always help )
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -34,8 +34,6 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -102,7 +100,6 @@ function result(url){
 - [resource 1](https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem) - This helped me understand local storage. I really liked this pattern and will use it going forward.
 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
@@ -110,7 +107,7 @@ function result(url){
 - Frontend Mentor - [@femizi](https://www.frontendmentor.io/profile/femizi)
 - Twitter - [@sonofpharoh](https://www.twitter.com/sonofpharoh)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 
